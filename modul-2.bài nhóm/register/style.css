@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    background-color: #040404;
+  }
+  h2.chung2-header {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600px;
+    color:#0DABFF;
+    
+  }
+  img.chung2-logo {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    margin-top: 50px;
+  }
+  form#chung2-login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chung2-form-first-part {
+    background-color: #132134;
+    width: 308px;
+    height: auto;
+    border: 1px solid #d1d5da;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .chung2-title {
+    margin-bottom: 7px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  form#chung2-login-form input {
+    width: 100%;
+    height: 35px;
+    padding: 6px 8px;
+    border: 1px solid #d1d5da;
+    margin-bottom: 5px;
+    background-color:#212733;
+    color: white;
+    border-radius: 5px;
+  }
+  .chung2-error {
+    margin-bottom: 5px;
+    font-size: 11px;
+    color: red;
+  }
+  
+  form#chung2-login-form input[type="submit"] {
+    background-color: #2FBEFF;
+   border-radius: 2px;
+    color: #FFFB91;
+    height: 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  #chung2-sign-up {
+    width: 308px;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+  }
+  #chung2-sign-up p {
+    border: 1px solid #d8dee2;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #89B5CA;
+    background-color: #132134;
+    border: none;
+  }
+  #chung2-sign-up p span{
+    border: 1px solid #d8dee2;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #0DA5F6;
+    background-color: #132134;
+    border: none;
+    display: inline-block;
+  }
+  #chung2-sign-up div {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 12px;
+    
+  }
+  #chung2-server-error-message {
+    text-align: center;
+  }
+  

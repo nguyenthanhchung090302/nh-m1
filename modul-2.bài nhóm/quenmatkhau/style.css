@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #24292e;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body {
+    background-color: #040404;
+  }
+  h2.chung3-header {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 100;
+    color:white;
+  }
+  p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 100;
+    color: #0DABFF;
+  }
+  img.chung3-logo {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    margin-top: 50px;
+  }
+  form#chung3-login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chung3-form-first-part {
+    background-color: #132134;
+    width: 308px;
+    height: auto;
+    border: 1px solid #d8dee2;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .chung3-title {
+    margin-bottom: 7px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #0DABFF;
+  }
+  form#chung3-login-form input {
+    width: 100%;
+    height: 35px;
+    padding: 6px 8px;
+    border: 1px solid #d1d5da;
+    margin-bottom: 5px;
+    background-color: #212733;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+  }
+  .chung3-error {
+    margin-bottom: 5px;
+    font-size: 11px;
+    color:white;
+  }
+  
+  form#chung3-login-form input[type="submit"] {
+    background-color: #293041;
+    color: #ACAFB4;
+    height: 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  
+  
